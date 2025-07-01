@@ -34,5 +34,35 @@ header {
     padding: 0.5rem;
 }
 
-/* Media Query */
+ul svg{
+    width: 1.25rem;
+    margin-right: 0.5rem;
+}
 
+nav{
+    margin:0 auto;
+    max-width:72rem;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+ul a{
+    color: var(--link);
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding: 1rem;
+    text-decoration:none;
+}
+
+
+/* Media Query */
+@media screen and (min-width:960px)
+{
+    ul.menu{
+    display:flex;
+    justify-content:space-between;
+   }
+}
